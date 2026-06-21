@@ -1,0 +1,9 @@
+[project]
+name = "bluesky-demo"
+version = "0.1.0"
+description = "Simple Bluesky social recommendation demo using the turing Mojo library"
+license = "BSD-3-Clause"
+
+[tool.demo]
+entrypoint = "src/main.mojo"
+

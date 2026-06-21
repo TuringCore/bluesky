@@ -1,0 +1,8 @@
+# Default ownership for fast triage
+* @jrule
+
+# Shared library integration points
+/src/main.mojo @jrule
+/tests/ @jrule
+/docs/rfcs/ @jrule
+
