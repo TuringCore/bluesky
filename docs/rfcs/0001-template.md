@@ -12,6 +12,12 @@ Describe the user or system problem.
 
 Describe the exact behavior change.
 
+## Contract surface impact
+
+- Does this change `src/contracts.mojo`?
+- Does this add or modify contributor signal modules?
+- Does this require CODEOWNERS or review-process changes?
+
 ## Impact
 
 - Ranking behavior:
@@ -21,4 +27,3 @@ Describe the exact behavior change.
 ## Validation plan
 
 List deterministic checks and demo updates.
-

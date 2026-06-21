@@ -1,8 +1,15 @@
 # Default ownership for fast triage
 * @jrule
 
-# Shared library integration points
-/src/main.mojo @jrule
-/tests/ @jrule
-/docs/rfcs/ @jrule
+# Maintainer-owned contract boundary
+/src/contracts.mojo @jrule
 
+# Contributor module area and app entrypoints
+/src/contributor_signals.mojo @jrule
+/src/main.mojo @jrule
+/src/main_gpu.mojo @jrule
+
+# Quality and change-process assets
+/tests/ @jrule
+/docs/contributor-contract.md @jrule
+/docs/rfcs/ @jrule
