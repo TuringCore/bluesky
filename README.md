@@ -174,18 +174,3 @@ mojo -I ../turing/src -I src src/main_gpu.mojo
 ```
 
 If your Mojo toolchain or deployment image requires additional GPU runtime flags, append them to the same command in local development and mirror those settings in your CI build definition.
-
-## Practical application context
-
-The same operating model is useful anywhere a team needs to control uncertainty-aware scoring in a system with many contributors:
-
-- **Finance:** risk ranking, fraud suspicion updates, and portfolio prioritization.
-- **Healthcare:** triage queues, utilization forecasting, and confidence-weighted clinical support.
-- **Operations:** incident routing, inventory prioritization, and demand balancing.
-- **Recommendations:** feed ranking, candidate blending, and exploration policies.
-
-## Related example
-
-For the companion application example, see:
-
-https://github.com/TuringCore/bluesky
